@@ -1,0 +1,29 @@
+@import url(../import.css);
+
+header{
+    height: 150px;
+    background-color: var(--fundo);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-log{
+    float: left;
+    width: 50%;
+}
+
+.nav-menu-links{
+    width: 50%;
+    float: left;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+a, li{
+    color: var(--branco);
+}
+

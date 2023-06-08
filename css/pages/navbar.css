@@ -3,7 +3,7 @@
 header{
     height: 150px;
     background-color: var(--fundo);
-    color: var(--branco);
+    /* color: var(--branco); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +12,6 @@ header{
 .box-log{
     float: left;
     width: 60%;
-    background-color: aqua;
 }
 
 .box-logo img{
@@ -47,5 +46,9 @@ a{
 }
 a:hover{
     background-color: var(--amarelo);
+    color: var(--preto);
 }
 
+.link-nav-home{
+    color: var(--amarelo);
+}

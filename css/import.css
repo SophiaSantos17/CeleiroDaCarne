@@ -76,7 +76,6 @@ td {
 /* Resets de links e listas */
 
 a {
-    color: var(--preto);
     text-decoration: none;
     padding: .5px;
 }
@@ -84,7 +83,6 @@ a {
 ul,
 li {
     list-style: none;
-    color: var(--preto);
 }
 
 button,

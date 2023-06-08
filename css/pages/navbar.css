@@ -1,0 +1,51 @@
+@import url(../import.css);
+
+header{
+    height: 150px;
+    background-color: var(--fundo);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-log{
+    float: left;
+    width: 60%;
+    background-color: aqua;
+}
+
+.box-logo img{
+    margin-left: 40px;
+}
+
+.nav-menu-links{
+    width: 60%;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    /* background-color: blueviolet; */
+    width: 80%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a, li{
+    color: var(--branco);
+    font-size: 25px;
+    font-family: var(--poppins);
+    text-transform: uppercase;
+}
+a{
+    padding: 10px 25px;
+}
+a:hover{
+    background-color: var(--amarelo);
+}
+

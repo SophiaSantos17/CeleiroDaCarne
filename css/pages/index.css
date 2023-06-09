@@ -1,29 +1,62 @@
 @import url(../import.css);
 
-header{
-    height: 150px;
+body{
     background-color: var(--fundo);
+}
+
+
+/* ------------- ALGUNS PRODUTOS ------------- */
+#alguns-produtos{
     color: var(--branco);
+    font-family: var(--poppins);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+#alguns-produtos h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+    /* margin-bottom: 50px; */
+}
+#alguns-produtos img{
+    margin: 30px 20px;
+    border-radius: 4px;
+}
+
+#produtos{
     display: flex;
-    justify-content: space-between;
-}
-
-.box-log{
-    float: left;
-    width: 50%;
-}
-
-.nav-menu-links{
-    width: 50%;
     float: left;
 }
+.box-img-prod{
+    position: relative;
+    display: inline-block;
+  }
 
-ul{
+.box-prod-hover{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 300px;
+    height: 290px;
+    background-color: #fda50357;
+    opacity: 0;
+    margin: 30px 20px;
+    visibility: hidden;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
-
-a, li{
-    color: var(--branco);
+.box-prod-hover p{
+    text-transform: uppercase;
+    font-family: var(--poppins);
+    color:black;
+    font-weight: 600;
+    font-size: 30px;
 }
-
+.box-img-prod:hover .box-prod-hover {
+    opacity: 1;
+    visibility: visible;
+}

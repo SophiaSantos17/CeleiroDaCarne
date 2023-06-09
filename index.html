@@ -4,93 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celeiro da Carne</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/pages/navbar.css">
+    <link rel="stylesheet" href="./css/pages/footer.css">
     <link rel="stylesheet" href="./css/pages/index.css">
-    <link rel="icon" href="./imagens/Logos/LogoRedondaMaior.png" type="image/png">
 </head>
 <body>
-
-    <!-- AS IMAGENS ESTÃO COM A QUALIDADE PÉSSIMA, USA SÓ PARA TESTE, E DPS A GENTE JOGA EM SITE QUE RENDERIZA -->
-
-    <!-- HEADER -->
+    <!-- NAVBAR -->
     <header id="header">
         <div class="box-logo">
-            <img src="./imagens/Logos/logoRedondaMenor.png" alt="Logo" class="logo" width="124" height="124">
+            <img src="../imagens/Logos/logoRedondaMenor.png" alt="Logo" class="logo" width="124" height="124">
         </div>
         <nav class="nav-menu-links">
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>Sobre</li></a>
-                <a href="#"><li>Cardápio</li></a>
-                <a href="#"><li>Agenda</li></a>
-                <a href="#"><li>Reservar</li></a>
+                <a href="#" class="link-nav-home"><li>Home</li></a>
+                <a href="#" class="link-nav-sobre"><li>Sobre</li></a>
+                <a href="#" class="link-nav-cardapio"><li>Cardápio</li></a>
+                <a href="#" class="link-nav-agenda"><li>Agenda</li></a>
+                <a href="#" class="link-nav-reserva"><li>Reservar</li></a>
             </ul>
         </nav>
     </header>
-
-    <h2>teste editei algo</h2>
-
-    <!-- BANNER -->
+    <!-- ------------- BANNER ------------- -->
     <div id="banner">
+        <img src="./imagens/Banners/BannerHomePrincipal_1920x820.png" alt="" width="100%" >
     </div>
 
-    <!-- ALGUND PRODUTOS -->
-    <div id="produtos">
-        <div class="box-produtos">
-            <div class="produto01"></div>
-            <div class="produto02"></div>
-            <div class="produto03"></div>
+    <!-- ------------- ALGUNS PRODUTOS ------------- -->
+    <div id="alguns-produtos">
+        <div id="titulo">
+            <h2>conheça alguns e nossos produtos</h2>
+
         </div>
+
+
+            <div class="box-img-prod">
+                <img src="./imagens/Cardapio/Imagens_3000x3000/Cardapio15_3000x3000.png" alt="" class="produto01" width="300px" height="290px">
+
+                <div class="box-prod-hover">
+                    <p>mandioca frita</p>
+                </div>
+            </div>
+
+            <div class="box-img-prod">
+                <img src="./imagens/Cardapio/Imagens_3000x3000/Cardapio11_3000x3000.png" alt="" class="produto02" width="300px" height="290px">
+                <div class="box-prod-hover">
+                    <p>BRISKET</p>
+                </div>
+            </div>
+            <div class="box-img-prod">
+                <img src="./imagens/Cardapio/Imagens_3000x3000/Cardapio17_3000x3000.png" alt="" class="produto03" width="300px" height="290px">
+                <div class="box-prod-hover">
+                    <p>Linguiça de costela carapreta
+                    </p>
+                </div>
+            </div>
+            
+            
+
     </div>
-
-
-    <!-- RESERVA E AGENDA -->
-    <div id="reserva-agenda">
-        <div class="box-reserva">
-            <div class="box-reserva-foto"></div>
-            <div class="box-reserva-texto"></div>
-        </div>
-        <div class="box-agenda">
-            <div class="box-reserva-foto"></div>
-            <div class="box-reserva-texto"></div>
-        </div>
-    </div>
-
-
-    <!-- CARDÁPIO -->
-    <div id="cardapio">
-    </div>
-    
-    <!-- POSTS DO INSTA -->
-    <div id="posts-insta">
-        <div class="box-insta-imagens"></div>
-    </div>
-
-    <!-- SOBRE -->
-    <div id="sobre">
-        <div class="box-sobre-top">
-            <div class="box-sobre-top-imagem"></div>
-            <div class="box-sobre-top-texto"></div>
-        </div>
-        <div class="box-sobre-bottom">
-            <div class="box-sobre-bottom-texto"></div>
-            <div class="box-sobre-bottom-imagem"></div>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
+    <!-- ------------- FOOTER ------------- -->
     <footer id="footer">
-        <div class="box-footer-top">
-            <div class="box-footer-top-infos01"></div>
-            <div class="box-footer-top-infos02"></div>
-            <div class="box-footer-top-infos03"></div>
+        <div class="box-top-footer">
+            <div class="box-text-left box-text">
+                <h3>Lorem Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maiores perspiciatis consequuntur nostrum quae voluptatum!</p>
+            </div>
+            <div class="box-text-center box-text">
+                <h3>Lorem Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maiores perspiciatis consequuntur nostrum quae voluptatum!</p>
+                
+            </div>
+            <div class="box-text-right box-text">
+                <h3>Lorem Lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maiores perspiciatis consequuntur nostrum quae voluptatum!</p>
+
+            </div>
+
         </div>
-        <div class="box-footer-bottom">
-            <nav class="box-footer-bottom-links"></nav>
+
+        <div class="box-bottom-footer">
+            <div class="box-footer-logo">
+                <img src="../imagens/Logos/logoRedondaMenor.png" alt="Logo Celeiro da Carne" width="124" height="124">
+            </div>
+            <div class="box-footer-links">
+                <ul>
+                    <a href="#"><li>Sobre</li></a>
+                    <a href="#"><li>Contato</li></a>
+                    <a href="#"><li>Instagram</li></a>
+                </ul>
+            </div>
         </div>
     </footer>
-
-
-
 </body>
 </html>

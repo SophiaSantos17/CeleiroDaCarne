@@ -7,7 +7,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+    min-height: 100%;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 /* Variaveis */
 
 :root {
@@ -15,7 +24,7 @@
     --amarelo: #FDA603;
     --branco: #F8F6F6;
     --preto: #0000;
-    --height-header: 230px;
+    --height-header: 150px;
     --poppins: 'Poppins', sans-serif;
     --montserrat: 'Montserrat', sans-serif;
 }

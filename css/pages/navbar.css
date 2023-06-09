@@ -1,7 +1,7 @@
 @import url(../import.css);
 
 header{
-    height: 150px;
+    height: var(--height-header);
     background-color: var(--fundo);
     /* color: var(--branco); */
     display: flex;

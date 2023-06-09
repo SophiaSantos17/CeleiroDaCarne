@@ -9,6 +9,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 300px;
   }
   
   /* ---------- PARTE DE CIMA ---------- */
@@ -77,3 +78,6 @@ footer {
     font-size: 17px;
   }
   
+  .box-footer-links li:hover{
+    color: var(--amarelo);
+  }

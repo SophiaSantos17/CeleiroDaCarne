@@ -41,12 +41,11 @@ header a, header li{
     font-family: var(--poppins);
     text-transform: uppercase;
 }
-header a{
+header li{
     padding: 10px 25px;
 }
-header a:hover{
-    background-color: var(--amarelo);
-    color: var(--preto);
+header li:hover{
+    color:  var(--amarelo);
 }
 
 .link-nav-home{

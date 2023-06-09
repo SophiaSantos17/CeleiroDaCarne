@@ -266,14 +266,14 @@ nav .link-nav-home li{
 #sobre button{
     color: var(--preto);
     background-color: var(--amarelo);
-    padding: 7px;
-    font-size: 15px;
+    padding: 7px 30px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     border: 1px solid var(--amarelo);
     border-radius: 5px;
     margin-top: 20px;
-    width: 200px;
+    width: 300px;
 }
 
 #sobre button:hover{
@@ -310,7 +310,7 @@ nav .link-nav-home li{
     width: 50%;
     height: 100%;
     margin: 0;
-    padding: 30px;
+    padding: 50px;
 }
 
 .box-sobre-top .box-text h2{
@@ -328,6 +328,7 @@ nav .link-nav-home li{
     font-family: var(--montserrat);
     text-transform: uppercase;
     width: 550px;
+    padding-top: 30px;
 }
 
 /* -------------- SOBRE - PARTE DE BAIXO - UNIDADES -------------- */
@@ -352,7 +353,7 @@ nav .link-nav-home li{
     width: 50%;
     height: 100%;
     margin: 0;
-    padding: 30px;
+    padding: 50px;
 }
 
 .box-sobre-bottom .box-text h2{
@@ -370,4 +371,5 @@ nav .link-nav-home li{
     font-family: var(--montserrat);
     text-transform: uppercase;
     width: 100%;
+    padding-top: 30px;
 }

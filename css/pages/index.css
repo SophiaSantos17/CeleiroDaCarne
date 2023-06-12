@@ -103,7 +103,7 @@ nav .link-nav-home li{
 }
 #reserva-agenda button:hover{
     cursor: pointer;
-    background-color: var(--preto);
+    background-color: var(--fundo);
     color: var(--amarelo);
     /* border: 1px solid var(--amarelo); */
 

@@ -1,0 +1,286 @@
+@import url(../import.css);
+
+nav .link-nav-cardapio li{
+    color: var(--amarelo);
+}
+
+/* ----- PARTE DE CIMA DO MENU DE CARDÁPIOS ----- */
+
+#total-menu-comidas{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.box-comidas-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.top-size-left-comidas{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.top-size-left-comidas h2{
+    color: var(--amarelo);
+    font-size: 50px;
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.box-buttons-types-comidas{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-buttons-types-comidas button.active {
+    border-bottom: 2px solid var(--amarelo);
+}
+
+.box-buttons-types-comidas button{
+    padding: 14px 30px;
+    /* border: none; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    color: var(--branco);
+    font-family: var(--montserrat);
+    font-size: 20px;
+    margin: 0 30px;
+}
+.box-buttons-types-comidas button:hover{
+    color: var(--amarelo);
+}
+
+
+/* ----- PARTE DE BAIXO ----- */
+.box-comidas-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* ----- IMAGEM ----- */
+.box-comidas-img{
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-comidas-img img{
+    border-radius: 5px;
+}
+
+/* ----- PRODUTOS E DESCRIÇÃO ----- */
+
+.box-desc-comidas{
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+.box-options-comidas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 13px 0;
+}
+.top-opitions-comidas{
+    display: flex;
+    flex-direction: row;
+    border-bottom: var(--amarelo) solid 2px;
+    padding: 0 12px;
+}
+.box-options-comidas h3{
+    font-size: var(--poppins);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 90%;
+}
+
+.box-options-comidas h4{
+    font-size: var(--poppins);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: fit-content;
+}
+
+.box-options-comidas span{
+    margin-right: 7px;
+    color: var(--amarelo);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.box-options-comidas p{
+    font-family: var(--montserrat);
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px;
+}
+#box-oppition-comidas-01{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/* ----- MENU DE BEBIDAS ----- */
+
+
+#total-menu-bebidas{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#total-menu-bebidas{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* ----- PARTE DE CIMA DO MENU DE BEBIDAS ----- */
+
+.box-bebidas-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* ----- TITULO DO MENU DE BEBIDAS ----- */
+.top-size-left-bebidas{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.top-size-left-bebidas h2{
+    color: var(--amarelo);
+    font-size: 50px;
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+/* ----- BOTÕES DO MENU DE BEBIDAS ----- */
+.box-buttons-types-bebibas{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-buttons-types-bebibas button.active {
+    border-bottom: 2px solid var(--amarelo);
+}
+
+.box-buttons-types-bebibas button{
+    padding: 14px 30px;
+    /* border: none; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    color: var(--branco);
+    font-family: var(--montserrat);
+    font-size: 20px;
+    margin: 0 30px;
+}
+.box-buttons-types-bebidas button:hover{
+    color: var(--amarelo);
+}
+
+
+/* ----- PARTE DE BAIXO DO MENU DE BEBIDAS ----- */
+.box-bebidas-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* ----- IMAGEM ----- */
+.box-bebidas-img{
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-bebidas-img img{
+    border-radius: 5px;
+}
+
+/* ----- PRODUTOS E DESCRIÇÃO ----- */
+
+.box-desc-bebidas{
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    padding: 50px 50px 50px 0;
+    flex-direction: column;
+}
+.box-options-bebidas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 13px 0;
+}
+.top-opitions-bebidas{
+    display: flex;
+    flex-direction: row;
+    border-bottom: var(--amarelo) solid 2px;
+    padding: 0 12px;
+}
+.box-options-bebidas h3{
+    font-size: var(--poppins);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 90%;
+}
+
+.box-options-bebidas h4{
+    font-size: var(--poppins);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: fit-content;
+}
+
+.box-options-bebidas span{
+    margin-right: 7px;
+    color: var(--amarelo);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.box-options-bebidas p{
+    font-family: var(--montserrat);
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px;
+}
+#box-oppition-bebidas-01{
+    display: flex;
+}

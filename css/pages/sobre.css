@@ -1,0 +1,58 @@
+@import url(../import.css);
+
+body{
+    background-color: var(--fundo);
+}
+
+nav .link-nav-sobre li{
+    color: var(--amarelo);
+}
+
+/* ----------BOX-CONTEUDO 1---------- */
+/* div quem somos */
+.box-info-total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.info{
+    border-left: 3px solid var(--amarelo);
+    text-align: left;
+    width: 80%;
+    
+}
+
+#quem-somos{
+    color: var(--amarelo);
+    font-family: var(--poppins);
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+
+}
+
+#conteudo-qsomos {
+    color: var(--branco);
+    font-family: var(--montserrat);
+    padding-left: 50px ;
+    padding-bottom: 70px;
+    font-size: x-large;
+}
+
+/* ----------BOX-CONTEUDO 2---------- */
+
+#conteudo-nossa_historia{
+    color: var(--branco);
+    font-family: var(--montserrat);
+    padding-top: 50px;
+    padding-left: 50px ;
+    padding-bottom: 70px;
+    font-size: x-large;
+}

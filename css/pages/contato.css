@@ -1,0 +1,120 @@
+@import url(../import.css);
+
+body{
+    background-color: var(--fundo);
+}
+
+nav .link-nav-contato li{
+    color: var(--amarelo);
+}
+
+
+/* ------------ BANNER ----------- */
+/* padding no banner para dar um espaço na div */
+#banner{
+    padding-bottom: 175px;
+}
+/* ------------ BOX CONTEUDO 1 ----------- */
+.fundo1{
+    padding-left: 70px;
+    position: relative;
+    background-color: var(--amarelo);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title-contato{
+    color: var(--fundo);
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+.logo-contato{
+    font-family: var(--poppins);
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.icon{
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.numero{
+    font-size: 20px;
+    color: var(--fundo);
+    font-weight: 700;
+}
+
+
+/*---------------- FORMULARIO -----------------*/
+.fundo2{
+    position: absolute;
+    padding-top: 840px;
+    padding-left: 670px;
+    
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.container {
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--fundo);
+    border: 1px solid var(--amarelo);
+    height: 470px;
+  }
+
+  .contato{
+    font-weight: 700;
+    color: var(--amarelo);
+    padding-bottom: 20px;
+    font-size: 40px;
+    /* background-color: aqua; */
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    /* align-items: center;  */
+  }
+
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    /* width: 100%;
+     */
+    width: 400px;
+    padding: 10px;
+    border: 1px solid var(--amarelo);
+    background-color: var(--fundo);
+    color: var(--branco);
+    font-family: var(--poppins);
+  }
+  input::placeholder, textarea::placeholder  {
+    color: var(--branco);
+  }
+
+  input[type="submit"] {
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    background-color: var(--amarelo);
+    color: var(--fundo);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    /* padding-left: 50%; */
+
+    cursor: pointer;
+    /* align-items: center; */
+    /* display: flex;
+    justify-content: center; */
+}

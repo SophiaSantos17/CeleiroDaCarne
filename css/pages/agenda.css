@@ -1,0 +1,51 @@
+@import url(../import.css);
+
+body{
+    background-color: var(--fundo);
+}
+
+nav .link-nav-agenda li{
+    color: var(--amarelo);
+}
+
+/* --------- INFO AGENDA ---------- */
+#nossos-eventos{
+    color: var(--amarelo);
+    font-family: var(--poppins);
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+
+}
+
+#festival li{
+    color: var(--branco);
+    font-family: var(--montserrat);
+    padding-left: 190px ;
+    font-size: x-large;
+}
+
+#dias-func {
+    color: var(--amarelo);
+    font-family: var(--poppins);
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+
+#semana-func li{
+    color: var(--branco);
+    font-family: var(--montserrat);
+    padding-left: 190px ;
+    font-size: x-large;
+    line-height: 60px;
+}
+
+
+
+
+

@@ -1,0 +1,54 @@
+@import url(../import.css);
+
+header{
+    height: var(--height-header);
+    background-color: var(--fundo);
+    /* color: var(--branco); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-log{
+    float: left;
+    width: 60%;
+}
+
+.box-logo img{
+    margin-left: 40px;
+}
+
+.nav-menu-links{
+    width: 60%;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    /* background-color: blueviolet; */
+    width: 80%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a, header li{
+    color: var(--branco);
+    font-size: 20px;
+    font-family: var(--poppins);
+    text-transform: uppercase;
+}
+header li{
+    padding: 10px 25px;
+}
+header li:hover{
+    color:  var(--amarelo);
+}
+
+.link-nav-home{
+    color: var(--amarelo);
+
+}

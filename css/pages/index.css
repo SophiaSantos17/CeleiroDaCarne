@@ -1,0 +1,382 @@
+@import url(../import.css);
+
+body{
+    background-color: var(--fundo);
+}
+
+nav .link-nav-home li{
+    color: var(--amarelo);
+}
+/* ------------- ALGUNS PRODUTOS ------------- */
+#alguns-produtos{
+    color: var(--branco);
+    font-family: var(--poppins);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+#alguns-produtos h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+    /* margin-bottom: 50px; */
+}
+#alguns-produtos img{
+    margin: 30px 20px;
+    border-radius: 4px;
+}
+
+#produtos{
+    display: flex;
+    float: left;
+}
+.box-img-prod{
+    position: relative;
+    display: inline-block;
+  }
+
+
+
+.box-prod-hover{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 300px;
+    height: 290px;
+    background-color: #fda50357;
+    opacity: 0;
+    margin: 30px 20px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation: 3s ease-in 1s 2 reverse both paused;
+}
+.box-prod-hover p{
+    text-transform: uppercase;
+    font-family: var(--poppins);
+    color:black;
+    font-weight: 600;
+    font-size: 30px;
+}
+.box-img-prod:hover .box-prod-hover {
+
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+/* -------------- AGENDA E RESERVA -------------- */
+
+#reserva-agenda{
+    color: var(--branco);
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 150px;
+    justify-content: center;
+}
+
+#reserva-agenda button{
+    color: var(--preto);
+    background-color: var(--amarelo);
+    padding: 12px 12px;
+    color: var(--preto);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid var(--amarelo);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 300px;
+}
+#reserva-agenda button:hover{
+    cursor: pointer;
+    background-color: var(--fundo);
+    color: var(--amarelo);
+    /* border: 1px solid var(--amarelo); */
+    
+}
+
+/* -------------- RESERVA -------------- */
+.box-reserva{
+    text-align: right;
+    padding: 30px;
+    border-right: 0.5px solid white;
+}
+
+.box-reserva h3{
+    font-weight: lighter;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: -10px;
+}
+.box-reserva h2{
+    color: var(--amarelo);
+    font-weight: 800;
+    font-size: 60px;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    /* padding-top: -30px; */
+}
+.box-reserva p{
+    font-weight: normal;
+    font-size: 25px;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    width: 450px;
+    
+}
+/* -------------- AGENDA -------------- */
+.box-agenda{
+    text-align: left;
+    padding: 30px;
+    border-left: 0.5px solid white;
+}
+
+.box-agenda h3{
+    font-weight: lighter;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: -10px;
+}
+.box-agenda h2{
+    color: var(--amarelo);
+    font-weight: 800;
+    font-size: 60px;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    /* padding-top: -30px; */
+}
+.box-agenda p{
+    font-weight: normal;
+    font-size: 25px;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    width: 450px;
+    
+}
+
+/* -------------- CARDÁPPIO -------------- */
+#cardapio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../imagens/Banners/FundoHomeCardapio_1920x820.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 100%;
+    margin-top: 200px;
+}
+
+#cardapio button{
+    color: var(--preto);
+    background-color: var(--amarelo);
+    padding: 17px 70px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border: none;
+    border: 1px solid var(--amarelo);
+    /* border-radius: 5px; */
+    margin-top: 20px;
+    transition: color 1s;
+}
+#cardapio button:hover{
+    cursor: pointer;
+    background-color: var(--preto);
+    color: var(--amarelo);
+
+}
+
+
+
+/* -------------- INSTAGRAM -------------- */
+#instagram{
+    color: var(--branco);
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#instagram h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+#instagram .logo-insta{
+    margin-left: -12px;
+}
+
+#instagram .post{
+    transition: width 1s, height 1s;
+    cursor: pointer;
+}
+#instagram .post:hover{
+    width: 300px;
+    height: 300px;
+    /* z-index: 1; */
+}
+
+/* -------------- INSTAGRAM - 5 POSTS EM CIMA -------------- */
+
+.imagens-post-top{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.imagens-post-top img{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px;
+}
+
+/* -------------- INSTAGRAM - 5 POSTS EM BAIXO -------------- */
+.imagens-post-bottom{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.imagens-post-bottom img{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px;
+}
+
+
+
+
+/* -------------- SOBRE -------------- */
+
+#sobre{
+    margin-top: 150px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+
+#sobre button{
+    color: var(--preto);
+    background-color: var(--amarelo);
+    padding: 7px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid var(--amarelo);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#sobre button:hover{
+    cursor: pointer;
+    background-color: var(--preto);
+    color: var(--amarelo);
+    /* border: 1px solid var(--amarelo); */
+
+}
+
+
+/* -------------- SOBRE - PARTE DE CIMA - HISTÓRIA -------------- */
+
+.box-sobre-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    
+}
+
+.box-sobre-top .box-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.box-sobre-top .box-img img{
+    width: 100%;
+}
+
+.box-sobre-top .box-text{
+    float: right;
+    color: var(--branco);
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 50px;
+}
+
+.box-sobre-top .box-text h2{
+    color: var(--amarelo);
+    font-weight: 700;
+    font-size: 50px;
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    line-height: 50px;
+    width: 250px;
+}
+.box-sobre-top .box-text p{
+    font-weight: normal;
+    font-size: 22px;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    width: 550px;
+    padding-top: 30px;
+}
+
+/* -------------- SOBRE - PARTE DE BAIXO - UNIDADES -------------- */
+
+.box-sobre-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    /* background-color: aqua; */
+}
+
+.box-sobre-bottom .box-img{
+    /* float: left; */
+    width: 50%;
+    margin: 0;
+}
+
+.box-sobre-bottom .box-text{
+    text-align: right;
+    color: var(--branco);
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 50px;
+}
+
+.box-sobre-bottom .box-text h2{
+    color: var(--amarelo);
+    font-weight: 700;
+    font-size: 50px;
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.box-sobre-bottom .box-text p{
+    text-align: right;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    width: 100%;
+    padding-top: 30px;
+}
